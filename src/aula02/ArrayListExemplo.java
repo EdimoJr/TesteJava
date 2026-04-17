@@ -8,7 +8,7 @@ public class ArrayListExemplo {
         nomes.add("Edimo");
         nomes.add("Kleber");
         nomes.add("Olesio");
-        nomes.add("Dantas");
+        nomes.add("Darlan");
         System.out.println(nomes);
     }
 }
