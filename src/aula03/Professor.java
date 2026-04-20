@@ -11,7 +11,8 @@ public class Professor extends Pessoa{
     }
 
     public void aumentaSalaario(){
-
+        //return this.salario * 1.1;
+        setSalario(salario * 1.1);
     }
 
     public String getDiciplina() {

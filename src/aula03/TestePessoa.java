@@ -8,12 +8,13 @@ public class TestePessoa {
         Calculadora calc = new Calculadora();
         System.out.println(fulano2.getNome());
 
-        Professor prof1 = new Professor("Zezinho", 34, 1.80, 3800, "algoritmos");
+        Professor prof1 = new Professor("Zezinho", 34, 1.80, 4000, "algoritmos");
 
         System.out.println(prof1.getNome());
         System.out.println(prof1.getSalario());
 
         prof1.aumentaSalaario();
+        System.out.println(prof1.getSalario());
 
         System.out.println(aluno1.getNome());
 
